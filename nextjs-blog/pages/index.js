@@ -1,17 +1,16 @@
 import Link from 'next/link'
 
 function Home() {
-  return ( 
-        
+  return (     
     <>
-    <head>
-        <title>
-            Lab 4  
-            CSS and Javascript
-        </title>
-    </head>
-    <body>
-        <h1>Bienvenue sur la page index</h1>
+        <head>
+            <title>
+                Lab 4  
+                CSS and Javascript
+            </title>
+        </head>
+        <body>
+            <h1>Bienvenue sur la page index</h1>
             <div>
                 <ul>
                     <Link href="/articles">
@@ -33,7 +32,7 @@ function Home() {
         <footer>
             <p> Create by Garreta and Guyon (footer)</p>
         </footer>
-        </>
+    </>
   )
 }
 

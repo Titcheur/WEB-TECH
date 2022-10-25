@@ -4,14 +4,14 @@ function Articles() {
     return ( 
         
         <>
-        <head>
-            <title>
-                Lab 4  
-                CSS and Javascript
-            </title>
-        </head>
-        <body>
-            <h1>Bienvenue sur la page des articles</h1>
+            <head>
+                <title>
+                    Lab 4  
+                    CSS and Javascript
+                </title>
+            </head>
+            <body>
+                <h1>Bienvenue sur la page des articles</h1>
                 <div>
                     <ul>
                         <Link href="/">
@@ -33,7 +33,7 @@ function Articles() {
             <footer>
                 <p> Create by Garreta and Guyon (footer)</p>
             </footer>
-            </>
+        </>
       )
     }
 
