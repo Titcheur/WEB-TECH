@@ -1,0 +1,14 @@
+.back{
+    background-color: #EEE753;
+}
+.Container{
+
+    border:1px solid;
+    border-color : black;
+    background-color: #9E9E9E;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}

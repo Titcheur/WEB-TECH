@@ -1,0 +1,53 @@
+.MainContainer{
+    background-color: #EEE753;
+ 
+}
+.Container{
+
+    border:1px solid;
+    border-color : black;
+    background-color: #9E9E9E;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.ContainerDescrition p {
+    text-align: center;
+
+}
+
+
+
+.img{
+    border-radius: 70%;
+    border : 1px solid;
+    border-color: black;
+    margin-left: 40%;
+
+    margin-top: 50px;
+    
+}
+
+.Container2 {
+    border-color : white;
+    background-color: #9E9E9E;
+    border-radius: 10px;
+    
+}
+
+.Container2 p{
+    padding: auto;
+    margin-left: 42%;
+    margin-top: 5px;
+    color : black ;
+
+}
+.center{
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
