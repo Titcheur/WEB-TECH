@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Layout from '../components/Layout.js'
+import Layout from '../components/layout.js'
 import styles from '../styles/Courses.module.css'
 
 export default function Courses() {
