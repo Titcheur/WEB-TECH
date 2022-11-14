@@ -1,17 +1,8 @@
-import { useEffect, useState } from 'react'
 import Layout from '../components/Layout.js'
+import Head from 'next/head'
 
 
-export default function Courses() {
-  const [courses, setCourses] = useState([])
-  useEffect(() => {
-    async function fetchData() {
-      const response = await fetch('/api/courses')
-      const courses = await response.json()
-      setCourses(courses)
-    }
-    fetchData()
-  }, [])
+export default function Courses({courses}) {
   return (
     <Layout>
         <div className='mb-15'>
@@ -31,4 +22,14 @@ export default function Courses() {
         </div>
     </Layout>
   )
+}
+
+export async function getStaticProps(ctx) {
+  const response = await fetch(`http://localhost:3000/api/courses`)
+  const courses = await response.json()
+  return {
+    props: {
+      courses: courses
+    }
+  };
 }

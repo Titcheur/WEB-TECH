@@ -8,3 +8,13 @@ So I decided to create my own plugins to customise my web page.
 
 problem with the css header file. I can't convers him in tailwind version without compilating problem
 
+#Lab6 
+
+#issue1 : 
+
+I don't understand how i buil the app 
+
+#issue2 : 
+
+Place the user to the right of the navigation bar
+
