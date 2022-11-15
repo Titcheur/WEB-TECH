@@ -31,6 +31,12 @@ export default function Home() {
             <p className="text-center mb-3">Le nombre d'heures séchées par les deux bolosses</p>
           </a>    
         </div>
+        <div className="Container ">
+          <a href="/use-state" >
+            <p className="text-center mt-3">Statistique Utilisateurs</p>
+            <p className="text-center mb-3">Le nombre de cliques de l'Utilisateurs</p>
+          </a>    
+        </div>
         </div>
     </Layout>
   )
